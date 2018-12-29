@@ -1,0 +1,140 @@
+/*公共样式*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+/**/
+.d{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    align-items: center;
+}
+
+/*登录全部样式*/
+.d1{
+
+    width: 500px;
+    height: 700px;
+    margin:auto;
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+}
+.d2{
+     width: 220px;
+     height: 40px;
+     /*border: red 1px solid;*/
+     text-align: center;
+     margin-top: 30px;
+     justify-content:center;
+     font-size: 25px;
+     border-right-style: solid;
+ }
+.d3{
+    width: 220px;
+    height: 40px;
+    /*border: red 1px solid;*/
+    text-align: center;
+    margin-top: 30px;
+    justify-content:center;
+    font-size: 25px;
+
+}
+.d4{
+    display: flex;
+}
+#form_dl{
+
+}
+#form_dl input{
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+}
+#form_s{
+    margin-top: 15px;
+    display: flex;
+
+}
+/*登录样式*/
+#form_dl2{
+margin-top: 20px;}
+#form_dl2 button{
+    width: 400px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 40px;
+    color: antiquewhite;
+    background-color: red;
+}
+/**/
+#form_z{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    /*border: red 1px solid;*/
+    margin-top: 20px;
+}
+.z1{
+    width: 50%;
+    height: 20px;
+    /*border: red 1px solid;*/
+
+}
+.z2{
+    width: 50%;
+    height: 20px;
+    /*border: red 1px solid;*/
+    text-align: right;
+}
+#form_z1{
+    display: flex;
+    margin-top: 20px;
+}
+.z3{
+    width: 50%;
+    height: 20px;
+    /*border: red 1px solid;*/
+    text-align: right;
+    border-right-style: solid;
+
+
+}
+.z4{
+    width: 50%;
+    height: 20px;
+    /*border: red 1px solid;*/
+    text-align: left;
+}
+
+/**/
+#form_h{
+    height: 500px;
+    width: 200px;
+    border: red 1px solid;
+}
+#from_tb{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#from_tb div{
+    margin-left: 25px;
+}

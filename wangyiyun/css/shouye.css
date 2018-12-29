@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
+div{
+    border: 1px black solid;
+}
+.t1{
+    width: 100%;
+    height: 80px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    display: flex;
+    background: #242424;
+}
+.tx{
+    width: 200px;
+    height: 80px;
+    margin-left: 200px;
+}
+.t2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.t3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    border-radius: 20px;
+    width: 200px;
+    height: 25px;
+}
+.t4{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+.t5{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    background: #242424;
+}
+.t6{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    text-align: center;
+}
+/*附属导航栏样式*/
+.F{
+    width: 100%;
+    height: 40px;
+    background: red;
+    display: flex;
+}
+.f1{
+    margin-left: 420px;
+    width: 80px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+}
+.f11{
+    text-decoration: none;
+}
+.f2{
+    margin-left: 30px;
+    width: 80px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+/*图片轮播样式*/
+.t_2{
+    width: 100%;
+    height: 340px;
+    background: red;
+    text-align: center;
+}
+.t_3{
+    width: 1000px;
+    height: 340px;
+    display: flex;
+    margin-left: 350px;
+}
+.t_4{
+    width: 290px;
+    height: 335px;
+}
+.b_1{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    background:blue;
+    border: 0px;
+    margin-top: 200px;
+    border-radius: 5px;
+
+}
+/*热门推荐样式*/
+.r{
+    width: 745px;
+    height: 500px;
+    margin-left: 50px;
+}
+.r1{
+    width: 900px;
+    height: 30px;
+    margin-left: 300px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+}
+.r_1{
+    text-decoration: none;
+    color: #242424;
+}
