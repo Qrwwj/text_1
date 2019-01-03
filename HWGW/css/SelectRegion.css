@@ -1,0 +1,29 @@
+#text_sr{
+    width: 100%;
+    /*border: antiquewhite 1px solid;*/
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+}
+#text_sr1{
+    width: 600px;
+    height: 700px;
+    border: antiquewhite 1px solid;
+
+}
+#text_sr1 h2{
+    text-align: center;
+}
+#text_sr2{
+    width: 550px;
+    height:600px;
+    /*border: red 1px solid;*/
+    margin: auto;
+}
+
+.text_sr button{
+    width: 150px;
+    height: 50px;
+
+    font-size:20px;
+}

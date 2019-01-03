@@ -1,58 +1,67 @@
 
-body{
+body {
     width: 100%;
     margin: 0px;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /*导航栏1样式*/
 
-.d{
+.d {
     width: 100%;
     height: 50px;
     /*border: 1px red solid;*/
     display: flex;
     background: aliceblue;
 }
-.d1{
+
+.d1 {
     width: 900px;
     text-align: center;
     line-height: 50px;
     font-size: 15px;
 }
+
 /*导航栏2样式*/
-.d_1{
-    width:100%;
+.d_1 {
+    width: 1370px;
     height: 100px;
     /*border: red 1px solid;*/
     display: flex;
 }
-#T{
+
+#T {
     text-align: center;
     margin-top: 25px;
 }
-.d_2{
+
+.d_2 {
     width: 200px;
     height: 100px;
     /*border: red 1px solid;*/
     margin-left: 180px;
 }
-.d_3{
+
+.d_3 {
     width: 250px;
     height: 100px;
     /*border: red 1px solid;*/
     text-align: center;
     line-height: 100px;
 }
-#T1{
+
+#T1 {
     width: 80px;
     height: 30px;
     background: aqua;
     border-radius: 20px;
     font-size: 15px;
 }
-#T2{
+
+#T2 {
     width: 80px;
     height: 30px;
     background: greenyellow;
@@ -60,7 +69,8 @@ a{
     font-size: 15px;
 
 }
-.d_4{
+
+.d_4 {
     /*border: red 1px solid;*/
     width: 400px;
     height: 100px;
@@ -68,28 +78,32 @@ a{
     line-height: 100px;
     font-size: 20px;
 }
-.d_5{
+
+.d_5 {
     width: 680px;
     height: 100px;
     /*border: red 1px solid;*/
     text-align: center;
     line-height: 100px;
 }
-#T3{
+
+#T3 {
     width: 300px;
     height: 30px;
     border-radius: 20px;
     text-align: center;
 }
+
 /*图片轮播样式*/
-.t{
+.t {
     width: 100%;
     height: 500px;
     /*border: 1px red solid;*/
     display: flex;
     background-color: azure;
 }
-.t1{
+
+.t1 {
     width: 200px;
     height: 450px;
     /*border: 1px red solid;*/
@@ -100,7 +114,9 @@ a{
     background-color: antiquewhite;
 
 }
-.t2{
+
+.t2 {
+    width: 200px;
     height: 73px;
     /*border: red 1px solid;*/
     line-height: 30px;
@@ -110,14 +126,17 @@ a{
     margin-left: 25px;
     margin-top: 12px;
 }
+
 .t3 {
+    width: 200px;
     height: 73px;
     /*border: red 1px solid;*/
     line-height: 30px;
     text-align: left;
     margin-left: 25px;
 }
-.t6{
+
+.t6 {
     height: 73px;
     /*border: red 1px solid;*/
     line-height: 30px;
@@ -125,66 +144,258 @@ a{
     text-align: left;
     margin-left: 25px;
 }
+
 /*注册栏样式*/
-.z{
-    width: 100%;
+.z {
+    width: 1370px;
     height: 80px;
     /*border: red 1px solid;*/
+    margin-left: 160px;
 
 }
-.z1{
+
+.z1 {
     width: 1350px;
     height: 80px;
-    border: red 1px solid;
+    border: antiquewhite 1px solid;
     margin: auto;
-    border-radius:15px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
 
 }
+
 .z2 {
     margin-left: 20px;
 }
+
 .z3 {
     margin-left: 10px;
 }
-#z1{
+
+#z1 {
     width: 80px;
     height: 30px;
     background-color: greenyellow;
     border-radius: 10px;
     margin-left: 2px;
 }
-#z2{width: 80px;
+
+#z2 {
+    width: 80px;
     height: 30px;
-    background-color:gold;
+    background-color: gold;
     border-radius: 10px;
     margin-left: 2px;
 }
-.z4{
+
+.z4 {
     text-align: center;
     margin-left: 40px;
 }
-.z5{
+
+.z5 {
     height: 40px;
     text-align: center;
-     margin-top: 5px;
+    margin-top: 5px;
     /*border: greenyellow 1px solid;*/
 
 }
-#z3{
+
+#z3 {
     font-size: 20px;
 }
-.z6{
+
+.z6 {
     height: 40px;
     text-align: center;
     margin-left: 40px;
     /*border: greenyellow 1px solid;*/
     word-spacing: 40px;
+    margin-top: 10px;
 
 }
-.z7{
+
+.z7 {
     height: 80px;
     /*border: greenyellow 1px solid;*/
     margin-left: 20px;
+}
+
+#text_z {
+    display: flex;
+    /*border: red 1px solid;*/
+    text-align: center;
+    width: 1370px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.text_z {
+    height: 200px;
+    width: 320px;
+    border-radius: 20px;
+    margin: auto;
+    /*border: red 1px solid;*/
+}
+
+#text_z img {
+    border-radius: 20px;
+}
+
+/* 热销栏样式*/
+.text_rx {
+    display: flex;
+    /*border: red 1px solid;*/
+    text-align: center;
+    width: 1370px;
+    height: 604px;
+    margin-left: 160px;
+
+}
+
+.text_rx1 {
+    display: flex;
+    /*border: red 1px solid;*/
+    text-align: center;
+    width: 1370px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.text_rx1 h2 {
+    margin-left: 10px;
+}
+
+#text_rx {
+    width: 230px;
+    height: 592px;
+    /*border: red 1px solid;*/
+    margin-left: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+#text_rx img {
+    border-radius: 20px;
+}
+#text_rx1{
+    width: 1130px;
+    height: 604px;
+    /*border: red 1px solid;*/
+
+
+}
+.text_rx2{
+    width: 230px;
+    height: 290px;
+    border: antiquewhite 1px solid;
+    border-radius: 20px;
+}
+.text_rx2 button{
+    background-color: red;
+    color: antiquewhite;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#text_rx2{
+    display: flex;
+    justify-content: space-around;
+}
+#text_rx3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+/*公共样式*/
+.text_xk{
+    width: 1370px;
+    /*border: red 1px solid;*/
+    margin: auto;
+}
+.text_jp{
+    width: 1370px;
+    /*border: red 1px solid;*/
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/*精品样式*/
+
+.text_jpp{
+    background-color: #666666;
+    width: 1370px;
+    height: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: antiquewhite;
+}
+/*轮播样式*/
+
+/**/
+.text_sj{
+    width: 1370px;
+    height: 80px;
+    /*border: red 1px solid;*/
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+#text_sj{
+    width: 1370px;
+    /*border: red 1px solid;*/
+    margin: auto;
+    display: flex;
+}
+#text_sj h2{
+    margin-left: 15px;
+}
+#text_sj1{
+width: 1000px;
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+#text_sj1 a{
+    color:black;
+}
+#text_sj2 {
+    margin-top: 25px;
+    margin-left: 180px;
+}
+#text_sj2 a{
+    color: black;
+}
+/**/
+/**/
+/*底部样式*/
+#text_db{
+
+    width: 1350px;
+    margin-left: 170px;
+}
+#text_db1 {
+    width: 1340px;
+    background-color: #666666;
+    border-bottom: #666666 1px solid;
+}
+#text_db1 ul{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+#text_db1 li{
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0 20px;
+}
+#text_db2{
+    display: flex;
+    background-color: #666666;
+    width: 1340px;
+
 }

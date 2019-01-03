@@ -1,0 +1,116 @@
+a{
+    text-decoration: none;
+}
+a:link{color: red}
+a:visited{color: black }
+a:hover{color: red}
+a:active{color: red}
+.d {
+    width: 100%;
+    height: 50px;
+    /*border: 1px red solid;*/
+    display: flex;
+    background: aliceblue;
+}
+
+.d1 {
+    width: 900px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+}
+/*导航样式*/
+#text_hf1{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+.text_hf input{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 25px;
+    position: relative;
+    left: 600px;
+}
+#text_hf2{
+    width: 1200px;
+    margin:auto;
+    display: flex;;
+    justify-content: space-around;;
+}
+#text_hf2 span{
+    font-size: 20px;
+}
+#text_hf3{
+    margin-left: 180px;
+}
+#text_hf4{
+    width: 100%;
+    margin: auto;
+}
+.text_hf4{
+    width: 1300px;
+    height: 200px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_a{
+    margin-left: 180px;
+    margin-top: 10px;
+    width: 1300px;
+    background-color: azure;
+    display: flex;
+
+}
+.text_a1{
+    text-align: center;
+}
+.text_a2{
+    margin-left: 100px;
+    text-align: center;
+}
+.text_a2 button{
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.text_a3{
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+
+}
+
+/*底部样式*/
+#text_db{
+
+    width: 100%;
+    margin-left: 170px;
+}
+#text_db1 {
+    width: 1310px;
+    background-color: #666666;
+    border-bottom: #666666 1px solid;
+}
+#text_db1 ul{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+#text_db1 li{
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0 20px;
+}
+#text_db2{
+    display: flex;
+    background-color: #666666;
+    width: 1310px;
+
+}

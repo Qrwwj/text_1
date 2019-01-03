@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{color:blue}    /*访问后字体颜色*/
+a:hover{color: red}       /*鼠标悬停字体颜色*/
+a:active{color: red}       /*点击后字体颜色*/
+
+.d {
+    width: 100%;
+    height: 50px;
+    /*border: 1px red solid;*/
+    display: flex;
+    background: aliceblue;
+}
+
+.d1 {
+    width: 900px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+
+
+#text_xf1{
+    background-color: #02A2D9;
+}
+.text_xf1{
+    width: 400px;
+    border: red 1px solid;
+    position: relative;
+    left: 1200px;
+    font-size: 20px;
+}
+.text_xf2{
+    margin: auto;
+    display: flex;
+}
+.text_xf2 img{
+    margin-left: 100px;
+}
+.text_xf2_1{
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+    display: flex;
+    width: 40%;
+    font-size: 20px;
+}
+.text_xf2_1 span{
+    font-size: 20px;
+    list-style: none;
+}
+
+/**/
+/*下拉菜单样式*/
+#xl{
+ width: 40px;
+    height: 30px;
+    border: 1px red solid;
+    position: relative;
+    display: inline-block;
+}
+#xl1{
+    width: 1000px;
+    height: 600px;
+    border: 1px red solid;
+    display: none;
+    position: absolute;
+    background-color: aqua;
+}
+#father:hover #xl1{
+    display: block;
+}
+
+/**/
+.text_xf2_2{
+    position: absolute;
+    right: 150px;
+}
+.text_xf2_2 input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/*图片样式*/
+#text_xf_t{
+    margin-left: 100px;
+}
+/*分割线样式*/
+#text_fg{
+    width: 1450px;
+    margin-left: 100px;
+    border: 1px red solid;
+    text-align: center;
+
+}
+#text_fg1{
+    width: 700px;
+
+    /*border: 1px red solid;*/
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#text_fg1 select{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+/*分割2样式*/
+#fg_2{
+    margin-left: 100px;
+    display: flex;
+}
+#fg_2_1{
+    margin: auto;
+}
+.b1{
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    background-color: red;
+}
+/*底部样式*/
+#text_db1{
+    width: 100%;
+    height: 250px;
+    border: red 1px solid;
+    display: flex;
+
+}
+#text_db2{
+    width: 70%;
+    border: red 1px solid;
+    margin-left: 82px;
+    display: flex;
+    justify-content: space-around;
+}
+#text_db2 ul{
+    list-style: none;
+}
+
+#text_db3{
+    width: 20%;
+    height: 250px;
+    border: red 1px solid;
+}
+#text_db4{
+    width: 100%;
+    height: 80px;
+    border: red 1px solid;
+    display: flex;
+}
+#text_db5{
+    width: 50%;
+    margin-left: 80px;
+}
+#text_db6{
+    position: absolute;
+    right: 100px;
+
+    display: flex;
+    justify-content: center;
+}

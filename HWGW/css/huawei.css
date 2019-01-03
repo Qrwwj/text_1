@@ -1,0 +1,149 @@
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*导航栏1样式*/
+
+.d {
+    width: 100%;
+    height: 50px;
+    border: 1px red solid;
+    display: flex;
+    background: aliceblue;
+}
+
+.d1 {
+    width: 900px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+}
+/*导航栏2样式*/
+#text_dh{
+    height: 82px;
+    width: 100%;
+    border: black 1px solid;
+    display: flex;
+}
+.text_dh {
+     width: 230px;
+     height: 82px;
+     /*border: black 1px solid ;*/
+     margin-left: 80px;
+    /*border-bottom: black 1px solid;*/
+    border-top: aliceblue 1px solid;
+ }
+.text_dh1 {
+    width: 55%;
+    height: 82px;
+    /*border: black 1px solid ;*/
+    display: flex;
+    margin-left: 50px;
+}
+.text_dh1 select{
+    width: 125px;
+    height: 30px;
+    border: none;
+    margin:  auto;
+    font-size: 20px;
+}
+.text_dh2{
+    margin: auto;
+    width: 5%;
+    /*border: #666666 1px solid;*/
+    border-right: #666666 1px solid;
+}
+.text_dh3{
+    margin: auto;
+    width:8%;
+    text-align: center;
+}
+
+/*底部导航样式*/
+#text_db{
+    width: 100%;
+    background-color: azure;
+}
+.text_db1{
+    width: 90%;
+    border: red 1px solid;
+    height: 100px;
+    margin: auto;
+    display: flex;
+}
+.text_db2{
+    margin-top: 10px;
+    align-content: center;
+    width: 800px;
+    height: 100px;
+
+}
+
+.text_db2 span{
+    font-size: 20px;
+}
+.text_db3{
+    width: 500px;
+    border: red 1px solid;
+    position: absolute;right:200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.text_db3 img{
+    margin: auto;
+}
+.text_db3 span{
+    font-size: 20px;
+    margin: auto;
+}
+
+
+/**/
+#text_db1{
+    width: 100%;
+    height: 250px;
+    border: red 1px solid;
+    display: flex;
+
+}
+#text_db2{
+    width: 70%;
+    border: red 1px solid;
+    margin-left: 82px;
+    display: flex;
+    justify-content: space-around;
+}
+#text_db2 ul{
+    list-style: none;
+}
+
+#text_db3{
+    width: 20%;
+    height: 250px;
+    border: red 1px solid;
+}
+#text_db4{
+    width: 100%;
+    height: 80px;
+    border: red 1px solid;
+    display: flex;
+}
+#text_db5{
+    width: 50%;
+    margin-left: 80px;
+}
+#text_db6{
+    position: absolute;
+    right: 100px;
+
+    display: flex;
+    justify-content: center;
+}
